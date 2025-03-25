@@ -1,13 +1,16 @@
 # SQL Injection Demo
 
 ***Main Page***
-![image](https://github.com/user-attachments/assets/a4baff19-c329-47ac-8a8d-7d057e144f1a)
+![image](https://github.com/user-attachments/assets/c5fe038b-da36-4615-8fcc-ca5ebd7484f9)
+
 
 ***Vulnerable Page***
-![image](https://github.com/user-attachments/assets/19cc524d-47ce-4e6b-b790-7bdaef5bb8c1)
+![image](https://github.com/user-attachments/assets/904fa25f-6462-4ea5-82d7-d292740f573d)
+
 
 ***Secure Page***
-![image](https://github.com/user-attachments/assets/43c9b2f4-9706-4141-881e-feecba0d7357)
+![image](https://github.com/user-attachments/assets/93ea0c7b-d757-437d-82f0-7bc79c980f9d)
+
 
 
 This project demonstrates the vulnerability of SQL injection attacks and how to prevent them using secure coding practices. It consists of a full-stack application with both vulnerable and secure authentication implementations, providing a clear comparison between unsafe and safe approaches to database interaction.
