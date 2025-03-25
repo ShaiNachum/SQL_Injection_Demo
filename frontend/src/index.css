@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set default font for the entire application */
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Set basic styling for the body element */
+body {
+  margin: 0;         /* Remove default margin - like removing padding from the edges */
+  min-height: 100vh; /* Make sure body is at least as tall as the viewport */
+}
+
+/* Styles for code blocks */
+.code-block {
+  font-family: 'Courier New', Courier, monospace; /* Use a monospace font*/
+  background-color: #f0f0f0;  /* Light grey background*/
+  padding: 1rem;              /* Add some space inside the code block */
+  border-radius: 0.5rem;      /* Rounded corners */
+  overflow-x: auto;           /* Add horizontal scrolling if the code is too wide */
+}
+
+/* Styles for SQL keywords */
+.sql-keyword {
+  color: #0000FF;    /* Blue color for keywords like SELECT, WHERE, etc. */
+  font-weight: bold;   /* Make keywords bold to stand out */
+}
+
+/* Styles for SQL strings */
+.sql-string {
+  color: #a31515;    /* Red color for string values like 'admin' */
+}
+
+/* Styles for SQL operators */
+.sql-operator {
+  color: #800000;    /* Dark red color for operators like =, >, etc. */
+  font-weight: bold;   /* Make operators bold to stand out */
+}
+
+/* Styles for highlighting important parts */
+.highlight {
+  background-color: yellow;   /* Yellow background to draw attention */
+  padding: 0 0.2rem;            /* Add a little space on the sides */
+}
+
+/* Styles for the vulnerable code section */
+.vulnerable-section {
+  border-left: 4px solid #ff5252;            /* Red border on the left - like a warning indicator */
+  background-color: rgba(255, 82, 82, 0.1);  /* Light red background - like a "caution" area */
+}
+
+/* Styles for the secure code section */
+.secure-section {
+  border-left: 4px solid #4caf50;            /* Green border on the left - like a "safe" indicator */
+  background-color: rgba(76, 175, 80, 0.1);  /* Light green background - like a "secure" area */
+}
